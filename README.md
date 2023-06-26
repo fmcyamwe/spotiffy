@@ -5,8 +5,11 @@
 ### The Why
 
 Ever been listening to a string of songs and wish that you could just have similar songs to whatever you are currently listening to added to your listening queue?
+
 That is the reason one create playlists right? In order to put those "pump you up" or "romantic" songs in the same place for later.
-But that can also get stale after a while, requiring updating and adding new songs to your playlist. My ear immediately picks it up when, at the end of one of my playlists, Spotify thrust onto me one of their 'recommendations' song that is so far off, I curse myself for not having enabled the repeat button beforehand.  
+But that can also get stale after a while, requiring updating and adding new songs to your playlist. 
+
+My ear immediately picks it up when, at the end of one of my playlists, Spotify thrust onto me one of their 'recommendations' song that is so far off, I curse myself for not having enabled the repeat button beforehand.  
 
 ### The What
 
@@ -27,6 +30,6 @@ It would be nice if Spotify would provide this extra information...or at least s
 
 The beginning of this pet project was coded in Go but I believe I shall try to code the next iteration using Python and take advantage of it's data analysis libraries. 
 
-At first though would be constructing a playlist with songs that are very much alike for one audio feature. Then using that audio feature as the basis, see the correlation with other audio features that would allow me to reliably construct a closely related playlist using a smaller set of audio features when querying Spotify's API.
+At first though would be constructing a playlist with songs that are very much alike for one audio feature. Then using the audio feature as the basis, see the correlation with other audio features for the playlist. This would allow me to reliably construct a closely related playlist using a smaller set of audio features when querying Spotify's API.
 
 Well...that will depend on how much I can tolerate the iffyness :D
